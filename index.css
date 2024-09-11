@@ -1,0 +1,47 @@
+body {
+  color: aliceblue;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a.animated-link {
+  transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+a.animated-link:hover {
+  transform: scale(1.2);
+  font-size: 20px;
+  
+  color: lightgreen;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  border: 2px solid green;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  color: green; 
+  display: block;
+  list-style-type: none;
+  padding: 18px;
+  text-align: center;
+}
